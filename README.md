@@ -12,8 +12,8 @@ For everyone else,
 
 You should now be back in your own github account!! Magic. I know.
 
-You have created a fork of the original which is wholly your own. You can keep
-it up to date with the original, which is useful if, for example, the original is a product
+You have created a fork of the original which is wholly your own. You can
+easily keep it up to date with the original repo, which is useful if, for example, the original is a product
 you contribute to and there are a lot of individual contributors working on different aspects of the product. In
 that case, you would want to make sure that you're pushing patches or features on
 top of the most recent commit to keep the repo up to date and allow your fellow
@@ -37,7 +37,7 @@ git clone https://github.com/[my-username]/git-your-own-adventure.git
 ```
 
 Once you've cloned it locally, we're going to assume, for the purposes of this
-tutorial, that you want to collaborate so you will need to check your remotes.
+tutorial, that you want to collaborate, so you will need to check your remotes.
 
 In the root directory of your clone, in a terminal, type:
 
@@ -53,7 +53,7 @@ git remote add upstream
 https://github.com/onyiny-ang/git-your-own-adventure.git
 ```
 
-Before we more on, two more commands you should be familiar with are `fetch` and `merge`.
+Before we move on, two more commands you should be familiar with are `fetch` and `merge`.
 
 You can keep your repo up to date with the upstream repo by using:
 
@@ -77,4 +77,4 @@ get merge upstream/master
 ```
 
 
-[Thank you, next](advanced\story-time.md)
+[Thank you, next](advanced/story-time.md)
