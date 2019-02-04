@@ -16,4 +16,7 @@ commands--no matter how badly you screw up your personal fork.
 
 Go ahead and fork it by clicking on the fork button at the top right of the repo.
 
+# WARNING, ONCE YOU DO THIS, THERE'S NO TURNING BACK
+
+###### To this repo :)
 
