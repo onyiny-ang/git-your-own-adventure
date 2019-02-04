@@ -13,7 +13,7 @@ that had no easy resolution. Somedays, Indigo wished for an extended holiday on 
 island without computers. Hell, without electricity. Today was definitely one of those
 days.
 
-"Welp. I guess I better get to it.", Indigo sighed.
+"Welp. I guess I better get to it," Indigo sighed.
 
 <What happens next? Give Indigo some options>
 
