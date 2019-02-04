@@ -49,9 +49,16 @@ You should see that `origin` is set to your fork. Now we will want to set the
 upstream to the original repo. We do this with:
 
 ```
-git remote add upstream
-https://github.com/onyiny-ang/git-your-own-adventure.git
+git remote add upstream https://github.com/onyiny-ang/git-your-own-adventure.git
 ```
+
+Now check the remote repositories again
+
+```
+git remote -v
+```
+
+You should see your fork under `origin` and the original repo under `upstream`.
 
 Before we move on, two more commands you should be familiar with are `fetch` and `merge`.
 
