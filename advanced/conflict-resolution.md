@@ -49,7 +49,12 @@ The code in between that block is where the problem is. You and someone else
 have both altered the same line. TO resolve the merge conflict, you Need to
 select the code that you want to keep within the block and remove the `>>>`,
 `===` and `<<<` tags. In our case, we probably want to keep both, our code and
-their code, so go ahead and edit the file to keep both lines of code.
+their code, so go ahead and edit the file to keep both lines of code, then add
+them again.
+
+```
+git add .
+```
 
 With the merge conflict resolved, you should be able to continue your rebase.
 
@@ -57,7 +62,43 @@ With the merge conflict resolved, you should be able to continue your rebase.
 git rebase --continue
 ```
 
-If there are no errors, you can recommit and push to you
+If there are no errors, you can push to your branch at origin again. . .
 
-![don't try this at
-home](https://cdn-images-1.medium.com/max/1600/1*h_k_S8AKyK84BHrNZsaQOA.png)
+```
+git push origin new-storyline
+```
+
+Perfe--what? It didn't work?? Oh. Did you get that pesky error again?
+
+```
+ ! [rejected]        new-storyline -> new-storyline (non-fast-forward)
+error: failed to push some refs to 'https://github.com/<your-user-name>/git-your-own-adventure.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+Right. This calls for heavy artillery.
+
+Before we proceed.
+
+BE WARNED. THIS COMMAND CAN BE DESTRUCTIVE.
+
+It's time to force that push.
+
+`--force` is kind of like the sudo of git. So consider this the obligatory:
+"With great power comes great responsibility."
+
+![don't try this at home](https://cdn-images-1.medium.com/max/1600/1*h_k_S8AKyK84BHrNZsaQOA.png)
+
+Try that again, but this time:
+
+```
+git push --force-with-lease origin new-storyline
+```
+Now refresh that window you originally had open to merge your PR.
+
+Wooo! No more merge conflicts!
+
+[Look at me, conflict free!](success.md)
