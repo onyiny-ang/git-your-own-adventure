@@ -34,6 +34,7 @@ To add an upstream repository to fetch and push too:
 ```
 git remote add upstream https://github.com/ORIGINAL_REPO_CREATOR/REPO_NAME.git
 ```
+
 ## Sync with Upstream
 
 To fetch upstream changes:
@@ -59,6 +60,70 @@ To completely reset your branch to the current state of upstream/master and blow
 ```
 git reset --HARD upstream/master
 ```
+
+## Merge Conflicts
+
+For a custom solution like including parts of a file from the branch you have
+and parts of the same file from the branch you are trying to merge with, you will need
+to manually edit the file. There are one line commands for favouring a file
+as it's represented in one branch or the other.
+
+To select the file as it exists in the branch you are currently in:
+
+```
+git checkout --ours <filename>
+```
+
+To select the file as it exists in the branch you are attempting to merge into
+your branch:
+
+```
+git checkout --theirs <filename>
+```
+
+Then you would continue by:
+
+```
+git add <filename>
+git merge --continue
+```
+
+### NOTE:
+
+If you are starting out with a rebase instead of a merge, the ours and
+theirs flags are reversed. [This](https://nitaym.github.io/ourstheirs/)
+explanation makes things pretty clear.
+
+## Cherry-picking
+
+To merge a single commit to a branch you are working within, find the hash of
+the commit you want to merge with `git log` and cherry-pick it:
+
+```
+git cherry-pick <hash of commit>
+```
+
+## Utilizing log and reflog
+
+`log` and `reflog` can be incredibly valuable tools when you want to remove
+commits, go back in time or recover something you accidentally deleted.
+
+To check out your commit history:
+
+```
+git log
+```
+
+To checkout git history in this repo:
+
+```
+git reflog
+```
+
+### Note:
+
+Hashes in either `git log` or `git reflog` can be used in lieu of branch names
+to rebase and/or reset and/or cherry-pick.
 
 ## Change Local Commit History
 
