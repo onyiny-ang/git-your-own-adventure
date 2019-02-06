@@ -4,14 +4,11 @@ Congratulations once again!
 
 ![Woo](https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif)
 
-But keep in mind, this state could change. If another PR *pull request* is
+But keep in mind, this state could change. If another PR (pull request) is
 merged before yours, it could still result in a merge conflict.
 
 Anyway, we'll come back to that in a little while.
-
 For now, let's move on to cherry-picking and some other fun things.
-
-![cherry-pick](https://media.giphy.com/media/Gj8qB0PsQgBuE/giphy.gif)
 
 Create a new branch, let's call it `cherry`.
 
@@ -98,5 +95,7 @@ Now, check out your log again. You should see that your commit from the cherry
 branch is at the top of the log on master.
 
 Easy Peasy.
+
+![cherry-pick](https://media.giphy.com/media/Gj8qB0PsQgBuE/giphy.gif)
 
 
