@@ -46,11 +46,12 @@ my code code code
 ```
 
 The code in between that block is where the problem is. You and someone else
-have both altered the same line. TO resolve the merge conflict, you Need to
+have both altered the same line. To resolve the merge conflict, you need to
 select the code that you want to keep within the block and remove the `>>>`,
-`===` and `<<<` tags. In our case, we probably want to keep both, our code and
-their code, so go ahead and edit the file to keep both lines of code, then add
-them again.
+`===` and `<<<` tags. In our case, we probably want to keep both our code and
+their code, so go ahead and edit the file to keep both lines of code. When
+you're done, add
+them again with:
 
 ```
 git add .
@@ -68,7 +69,9 @@ If there are no errors, you can push to your branch at origin again. . .
 git push origin new-storyline
 ```
 
-Perfe--what? It didn't work?? Oh. Did you get that pesky error again?
+## Perfect!
+
+--wait, what? it didn't work?? Oh. Did you get this pesky error?
 
 ```
  ! [rejected]        new-storyline -> new-storyline (non-fast-forward)
@@ -79,7 +82,7 @@ hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
-Right. This calls for heavy artillery.
+Right. This calls for the heavy artillery.
 
 Before we proceed.
 
@@ -100,5 +103,7 @@ git push --force-with-lease origin new-storyline
 Now refresh that window you originally had open to merge your PR.
 
 Wooo! No more merge conflicts!
+
+![Yes](https://memegenerator.net/img/instances/68506713.jpg)
 
 [Look at me, conflict free!](success.md)

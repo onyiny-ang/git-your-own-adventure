@@ -30,7 +30,7 @@ The rules for adding to the story are simple.
    [Relative Link Name](file-name.md)
    ```
 
-5. Close the file and create a new file with the name you linked to. Add at
+5. Close the file and create a new file in the `story` directory with the name you linked to. Add at
    least one sentence to the file to continue the story. Try to keep the story
    at least somewhat consistent. Note: Inappropriate storylines will be
    moderated at upstream.
@@ -53,7 +53,10 @@ git push origin master
 
 9. Click on the `pull request` button on the right, just above the files in the
    repo. You will see a Green `Create pull request` button on the next page.
-   Click on that.
+   Make sure your base repository is: `onyiny-ang/git-your-own-adventure` and
+   base is: `new-storyline` and the head repository and compare match but point
+   to your account.
+   Click on the green Pull request button.
 
 10. Leave a concise but descriptive comment about why your pull request is an
    important or necessary addition to the repo and click the green button to
@@ -64,9 +67,15 @@ After doing this, there are two possibilities:
 1. The pull request is ready to merge. In this case, wait patiently until the
    PR merges. You may need to get the attention of the original author of the
    repo to take a look at the PR's that are ready to merge.
+   ![please merge
+   me](http://null.perl-hackers.net/wp-content/uploads/2015/01/19228517.jpg)
+
    Anyway, [CONGRATULATIONS ON YOUR SUCCESSFUL PR](success.md)
 
 2. The pull request has conflict. This is a pretty common scenario and most
    often occurs because you are trying to make a PR over top of code that has
-   become out of date while you were working on it. Never fear, we can mitigate
+   become out of date while you were working on it.
+   ![merge conflicts](https://img.devrant.com/devrant/rant/r_477918_w6Khj.jpg)
+
+   Never fear, we can mitigate
    this problem. [MERGE CONFLICT RESOLUTION](conflict-resolution.md)
