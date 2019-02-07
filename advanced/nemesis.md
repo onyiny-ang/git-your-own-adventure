@@ -7,9 +7,9 @@ What the. . . .checkout pull request
 [#5](../pull/5)
 
 Who the heck is Stromae Lamelle? How dare they speak so poorly of github! They
-are an insult house plants everywhere!
+are an insult to house plants everywhere!
 
-Click on the `Files changed` tab at the top of the repo.
+Click on the `Files Changed` tab at the top of their pull request.
 You can see that they have removed the command-list of useful commands AND the
 story about Indigo that you contributed to earlier.
 
