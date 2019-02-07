@@ -76,7 +76,7 @@ master (Nothing should have
 happened yet, so don't expect it to be too exciting).
 
 ```
-git fetch upstream`
+git fetch upstream
 ```
 
 ```

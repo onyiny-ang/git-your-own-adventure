@@ -41,7 +41,7 @@ First, take a look at all those unorganized commits
 git log
 ```
 Notice that each commit has a unique SHA. The author and time as well as the commit message are also all
-recorded for each commit and all of your history in this branch. That seems handy! Count the number of commits you've made since you checked out this branchr. Remember that number. (protip: q exits out of
+recorded for each commit and all of your history in this branch. That seems handy! Count the number of commits you've made since you checked out this branchr. Remember _that number_. (protip: q exits out of
 the log)
 
 Now let's try an interactive rebase.
@@ -72,7 +72,7 @@ right?
 
 Unfortunately, it seems that in the time since you made those changes, your arch-nemesis committed
 something else that changed the direction of what the upstream branch looked
-like and now you'd be embarassed to commit this branch upstream.
+like and now you'd be embarassed to commit this branch upstream. Typical.
 
 There's still one commit that's good though!! Get it in there before your
 arch-nemesis ruins that just like everything else they ruin.
@@ -98,4 +98,7 @@ Easy Peasy.
 
 ![cherry-pick](https://media.giphy.com/media/Gj8qB0PsQgBuE/giphy.gif)
 
+Now you can merge it, right? You know how to do this.
+
+Wait a minute. . .[What's this new branch](nemesis.md)?
 
