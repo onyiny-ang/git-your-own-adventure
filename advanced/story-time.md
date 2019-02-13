@@ -75,8 +75,7 @@ git push origin new-story
 
 11. Click on the green Create pull request button.
 After doing this, there are two possibilities:
-
-⋅⋅1. The pull request is ready to merge. In this case, wait patiently until the
+⋅⋅⋅1. The pull request is ready to merge. In this case, wait patiently until the
    PR merges. You may need to get the attention of the original author of the
    repo to take a look at the PR's that are ready to merge.
    ![please merge
@@ -84,7 +83,7 @@ After doing this, there are two possibilities:
 
    Anyway, [CONGRATULATIONS ON YOUR SUCCESSFUL PR](success.md)
 
-⋅⋅2. The pull request has conflict. This is a pretty common scenario and most
+⋅⋅⋅2. The pull request has conflict. This is a pretty common scenario and most
    often occurs because you are trying to make a PR over top of code that has
    become out of date while you were working on it.
    ![merge conflicts](https://img.devrant.com/devrant/rant/r_477918_w6Khj.jpg)
