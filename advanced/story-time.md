@@ -73,20 +73,18 @@ git push origin new-story
 10. Change the title and leave a concise but descriptive comment about why your pull request is an
    important or necessary addition to the repo.
 
-11. Click on the green Create pull request button.
-After doing this, there are two possibilities:
-⋅⋅⋅1. The pull request is ready to merge. In this case, wait patiently until the
-   PR merges. You may need to get the attention of the original author of the
-   repo to take a look at the PR's that are ready to merge.
-   ![please merge
-   me](http://null.perl-hackers.net/wp-content/uploads/2015/01/19228517.jpg)
-
-   Anyway, [CONGRATULATIONS ON YOUR SUCCESSFUL PR](success.md)
-
-⋅⋅⋅2. The pull request has conflict. This is a pretty common scenario and most
-   often occurs because you are trying to make a PR over top of code that has
-   become out of date while you were working on it.
-   ![merge conflicts](https://img.devrant.com/devrant/rant/r_477918_w6Khj.jpg)
+11. Click on the green Create pull request button. After doing this, there are two possibilities:
+   
+      1. The pull request is ready to merge. In this case, wait patiently until the PR merges. You 
+      may need to get the attention of the original author of the repo to take a look at the PR's 
+      that are ready to merge. 
+      ![please merge me](http://null.perl-hackers.net/wp-content/uploads/2015/01/19228517.jpg)
+      
+      Anyway, [CONGRATULATIONS ON YOUR SUCCESSFUL PR](success.md)
+   
+      2. The pull request has conflict. This is a pretty common scenario and most often occurs 
+      because you are trying to make a PR over top of code that has become out of date while you were working on it.
+      ![merge conflicts](https://img.devrant.com/devrant/rant/r_477918_w6Khj.jpg)
 
    Never fear, we can mitigate
    this problem. [MERGE CONFLICT RESOLUTION](conflict-resolution.md)
