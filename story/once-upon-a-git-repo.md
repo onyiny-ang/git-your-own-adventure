@@ -18,3 +18,5 @@ days.
 <What happens next? Give Indigo some options>
 
 
+[Indigo clicks the notification icon](icon.md)
+
