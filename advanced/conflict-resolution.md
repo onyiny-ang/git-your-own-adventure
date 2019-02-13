@@ -36,22 +36,21 @@ story/once-upon-a-git-repo.md. So open it with your editor.
 Inside the file, if you scroll down, you will eventually come to:
 
 ```
->>> HEAD
+<<<<<<<<<< HEAD
 
 somebody else's code code code
 ======
 my code code code
 
-<<<
+>>>>>>>>>> <commit sha> ... <commit message>
 ```
 
 The code in between that block is where the problem is. You and someone else
 have both altered the same line. To resolve the merge conflict, you need to
-select the code that you want to keep within the block and remove the `>>>`,
-`===` and `<<<` tags. In our case, we probably want to keep both our code and
-their code, so go ahead and edit the file to keep both lines of code. When
-you're done, add
-them again with:
+select the code that you want to keep within the block and remove the `<<<`,
+`===` and `>>>` tags. In our case, we probably want to keep both our code and
+their code, so go ahead and edit the file to keep both lines of code and remove
+the indicators. When you're done, add the changes with:
 
 ```
 git add .
@@ -63,10 +62,13 @@ With the merge conflict resolved, you should be able to continue your rebase.
 git rebase --continue
 ```
 
+Which will allow you to once again, edit your commit message. In this case,
+because we kept the changes upstream, we could change our commit message to
+reflect that.
 If there are no errors, you can push to your branch at origin again. . .
 
 ```
-git push origin new-storyline
+git push origin new-story
 ```
 
 ## Perfect!
@@ -74,7 +76,7 @@ git push origin new-storyline
 --wait, what? it didn't work?? Oh. Did you get this pesky error?
 
 ```
- ! [rejected]        new-storyline -> new-storyline (non-fast-forward)
+ ! [rejected]        new-story -> new-story (non-fast-forward)
 error: failed to push some refs to 'https://github.com/<your-user-name>/git-your-own-adventure.git'
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Integrate the remote changes (e.g.
@@ -98,9 +100,9 @@ It's time to force that push.
 Try that again, but this time:
 
 ```
-git push --force-with-lease origin new-storyline
+git push --force-with-lease origin new-story
 ```
-Now refresh that window you originally had open to merge your PR.
+Now open or refresh the window pointed to the upstream PR you made.
 
 Wooo! No more merge conflicts!
 
