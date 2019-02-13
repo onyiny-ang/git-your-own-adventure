@@ -38,14 +38,15 @@ The rules for adding to the story are simple.
 
 
 5. Close the file and create a new file in the `story` directory with the name you linked to. Add at
-   least one sentence to the file to continue the story. Try to keep the story
-   at least somewhat consistent. Note: Inappropriate storylines will be
-   moderated at upstream.
-
-   In keeping with the above example, you qouls create a new file called icon.md: `touch
+   least one sentence to the file to continue the story. 
+   
+   In keeping with the above example, you could create a new file called icon.md: `touch
    icon.md`
+   Try to keep the story at least somewhat consistent. Note: Inappropriate storylines will be
+   moderated upstream.
 
 6. When you have completed the story in your file, save it and close it.
+
 
 7. Now you will push your changes to your fork.
 
