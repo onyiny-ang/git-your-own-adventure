@@ -62,18 +62,14 @@ You should see your fork under `origin` and the original repo under `upstream`.
 
 Before we move on, two more commands you should be familiar with are `fetch` and `merge`.
 
-You can keep your repo up to date with the upstream repo by using:
-
-```
-git fetch upstream
-```
+You can keep your repo up to date with the upstream repo by using `fetch`.
 
 This will fetch all of the recent commits but will not attempt to pull them
 into your repo. Depending on what you have done locally since your last
 fetch/merge, you may want to do something other than merge. . .we will get to
-that later. For now, try a fetch upstream and a merge the upstream changes into
-master (Nothing should have
-happened yet, so don't expect it to be too exciting).
+that later. For now, try fetching the upstream changes and merging them into
+your local master branch (Nothing should have
+happened yet, so don't expect it to be too exciting this time).
 
 ```
 git fetch upstream
