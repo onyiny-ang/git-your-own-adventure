@@ -28,29 +28,39 @@ git checkout arch-nemesis
 
 Check to make sure that the files in your new branch match the arch-nemesis
 branch that the PR is on.
+Navigate to the root of the directory and then type:
 
-Ok. First of all, we need to put the command-list back in there. You can
-actually do this easily by checking out a particular file.
+```
+ls -l
+```
+
+Ok. We've confirmed this matches what we saw in Stromae Lamelle's branch. First of all, we need to put the command-list back in there. You can
+actually do this easily by checking out a particular file. Since the
+command-list.md still exists in your master branch, you can move it to this
+branch like this:
 
 ```
 git checkout master command-list.md
 ```
 
 This will select the command-list from the master branch and put it in the
-arch-nemesis branch.
+arch-nemesis branch. You can list the files in the directory again to verify if
+you want.
 
-Do the same for the other files Stromae Lamelle has destroyed, and cherry pick
-your last commit onto the cherry branch on top of it.
+Do the same for the other files Stromae Lamelle has destroyed. Add and commit
+them. This should include the changes you just made with your cherry pick.
 
 <details>
-  <summary>You don't still need the instructions do you?</summary>
+  <summary>If you still need the instructions click the arrow</summary>
 
 ```
 git checkout master story/
-git cherry-pick SHA
+git add .
+git commit -m "Fighting evil one git checkout at a time"
 ```
 
 </details>
+
 
 Now, to top it off, why don't you also cherry pick your commit from your first
 pull request as well? You might as well roll everything into a final commit.
@@ -59,13 +69,18 @@ pull request as well? You might as well roll everything into a final commit.
   <summary>Hint: It's another cherry pick</summary>
 
 ```
+git checkout new-story
+git log
+<copy the commit SHA>
+git checkout arch-nemesis
 git cherry-pick SHA
 ```
 
 </details>
 
 
-Great. Now, push it and  navigate to github and open a Pull request, name it something snarky and
+
+Great. Now, push it. You should get a message that tells you where to navigate to on github to see your commits. It will probably be something like: `https://github.com/<your-user-name>/git-your-own-adventure/pull/new/arch-nemesis`. Navigate there on github and open a Pull request, name it something snarky and
 tag @stroma-lamellae in it. That jerk.
 
 
@@ -77,6 +92,7 @@ git push origin arch-nemesis
 ```
 
 </details>
+
 
 
 [One more thing](last-but-not-least.md)
