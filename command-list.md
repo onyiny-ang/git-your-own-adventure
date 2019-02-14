@@ -58,7 +58,8 @@ git rebase -i upstream/master
 To completely reset your branch to the current state of upstream/master and blow away any changes you made locally:
 
 ```
-git reset --HARD upstream/master
+git reset --hard upstream/master
+git reset --hard SHA
 ```
 
 ## Merge Conflicts
