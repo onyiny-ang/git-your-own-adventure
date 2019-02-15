@@ -1,6 +1,8 @@
 # Welcome to Git Your Own Adventure!
 
-This is a tutorial for advanced git commands.
+This is a tutorial for advanced git commands on the command line. This tutorial
+has a [few requirements](start/requirements.md) that you should check out before you
+[start](start/START-HERE.md).
 
 If you are visiting this page for the first time and are still in the original
 repo: ie. `onyiny-ang/git-your-own-adventure`, the starting place you are looking for
@@ -32,8 +34,16 @@ it](https://media.giphy.com/media/1ynCulGSsN6f3tRyk0/giphy.gif)
 
 Let's clone the repo into a local directory to continue developing on it.
 
+If you're using https:
+
 ```
 git clone https://github.com/[my-username]/git-your-own-adventure.git
+```
+
+If you've already [set up your ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/):
+
+```
+git clone git@github.com:[my-username]/git-your-own-adventure.git
 ```
 
 Once you've cloned it locally, we're going to assume, for the purposes of this
@@ -76,7 +86,7 @@ git fetch upstream
 ```
 
 ```
-get merge upstream/master
+git merge upstream/master
 ```
 
 
