@@ -15,6 +15,7 @@ days.
 
 "Welp. I guess I better get to it," Indigo sighed.
 
-<What happens next? Give Indigo some options>
+[Indigo clicks the notification icon](icon.md)
+
 
 
