@@ -13,7 +13,7 @@ realize, because you have the power to change it!
 
 It would be nice to have a backup of your changes somewhere on the interwebs so you can easily port it to your other machines, though. You _could_ make a new branch for your changes, but your clone is still set to push to the original repo. Do you really want everyone to see your branch when they're browsing through the original repo? What if the original owner has turned protections on their repo that prevent you from pushing to it directly? Of course, you can change your local settings so the remote location your repo is pointing to is a brand new space on your github account that you've created just for you, and push your clone there, but if you want to pull any new developments in from the original, it will be complicated.
 
-Are you starting to think maybe cloning isn't what you wanted to do? Don't worry! There's still time to take that left turn at the [Fork](fork.md)!?
+Are you starting to think maybe cloning isn't what you wanted to do? Don't worry! There's still time to take that left turn at the [Fork](fork.md)!!!
 
 More of a spoon person? Well, I tried.
 
