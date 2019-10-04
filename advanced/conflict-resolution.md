@@ -106,6 +106,6 @@ Now open or refresh the window pointed to the upstream PR you made.
 
 Wooo! No more merge conflicts!
 
-![Yes](https://memegenerator.net/img/instances/68506713.jpg)
+![Yes](https://media.giphy.com/media/3ohzAu2U1tOafteBa0/giphy.gif)
 
 [Look at me, conflict free!](success.md)
