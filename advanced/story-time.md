@@ -83,7 +83,7 @@ git push origin new-story
 
       2. The pull request has a conflict. This is a pretty common scenario and most often occurs
       because you are trying to make a PR over top of code that has become out of date while you were working on it.
+      
       ![merge conflicts](https://img.devrant.com/devrant/rant/r_477918_w6Khj.jpg)
 
-   Never fear, we can mitigate
-   this problem. [MERGE CONFLICT RESOLUTION](conflict-resolution.md)
+       Never fear, we can mitigate this problem. [MERGE CONFLICT RESOLUTION](conflict-resolution.md)
