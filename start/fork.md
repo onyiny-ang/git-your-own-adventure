@@ -4,7 +4,7 @@ Good. For our purposes, this is the best choice.
 
 But what is a fork anyway?
 
-![Little Mermaid - FORK](http://fanaru.com/the-little-mermaid/image/94888-the-little-mermaid-ariel.gif)
+![Little Mermaid - FORK](https://media.giphy.com/media/103R2H9RN2QZgc/giphy.gif)
 
 A fork gives you a full copy of the repo that you are free to clone and change
 as you please with all the functionality of your own git repo. When combined
