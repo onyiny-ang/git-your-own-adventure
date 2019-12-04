@@ -77,10 +77,9 @@ git push origin new-story
 
       1. The pull request is ready to merge. In this case, wait patiently until the PR merges. You
       may need to get the attention of the original author of the repo to take a look at the PR's
-      that are ready to merge.
-      ![please merge me](http://null.perl-hackers.net/wp-content/uploads/2015/01/19228517.jpg)
+      that are ready to merge. Anyway, [CONGRATULATIONS ON YOUR SUCCESSFUL PR](success.md)
 
-      Anyway, [CONGRATULATIONS ON YOUR SUCCESSFUL PR](success.md)
+      ![please merge me](http://null.perl-hackers.net/wp-content/uploads/2015/01/19228517.jpg)
 
       2. The pull request has a conflict. This is a pretty common scenario and most often occurs
       because you are trying to make a PR over top of code that has become out of date while you were working on it.
